@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "20745511701",
+    "firebase_url": "https://toursathi-8891a.firebaseio.com",
+    "project_id": "toursathi-8891a",
+    "storage_bucket": "toursathi-8891a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20745511701:android:57cb4cc04d227ffb997f1c",
+        "android_client_info": {
+          "package_name": "com.example.toursathi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20745511701-op4eh3k5rkauas3e0q06mq67hq018jfj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toursathi",
+            "certificate_hash": "76b10a7cda77c08a20807aafcf4e4ea579759e48"
+          }
+        },
+        {
+          "client_id": "20745511701-5vlg4d5600o3ecesdcp2mrjbkevtg0p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_diKloNQpzNWpmTtKbepnigR1YuVYfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20745511701-5vlg4d5600o3ecesdcp2mrjbkevtg0p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

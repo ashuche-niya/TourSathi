@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#B9BDB9"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/cscText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="0.4"
+        android:padding="10dp"
+        android:text="Group Name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editgroupname"
+        android:layout_below="@+id/cscText"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/editgroupname"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="cancel"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btncreate"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/editgroupname"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="create"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
